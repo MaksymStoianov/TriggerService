@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true, // Отключение комментариев
+    "sourceMap": false, // Отключение исходных карт
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "google-apps-script"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
